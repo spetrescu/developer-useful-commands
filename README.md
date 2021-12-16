@@ -5,3 +5,4 @@
 3. Delete all files with specific extension in dir: `find . -name "*.DS_Store" -type f -delete`
 4. List all files with specific extension in dir: `find . -name "*.DS_Store" -type f`
 5. List all directories that contain specific character (underscore in this case): `find . -name '*_*' -type d`
+6. Remove docker image: `sudo docker rmi -f <IMAGE ID>`
