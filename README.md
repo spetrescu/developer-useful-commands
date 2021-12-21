@@ -8,3 +8,4 @@
 6. Remove docker image: `sudo docker rmi -f <IMAGE ID>`
 7. Stop process for docker container `docker rm name_of_the_docker_container`
 8. `git reset --hard origin/main`
+9. Stage only deleted files git: `git ls-files --deleted | xargs git add`
