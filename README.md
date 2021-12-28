@@ -9,3 +9,4 @@
 7. Stop process for docker container `docker rm name_of_the_docker_container`
 8. `git reset --hard origin/main`
 9. Stage only deleted files git: `git ls-files --deleted | xargs git add`
+10. Get vim on ubuntu machine: `apt-get update && apt-get install apt-file -y && apt-file update && apt-get install vim -y`
