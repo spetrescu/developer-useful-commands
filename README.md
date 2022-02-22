@@ -10,3 +10,16 @@
 8. `git reset --hard origin/main`
 9. Stage only deleted files git: `git ls-files --deleted | xargs git add`
 10. Get vim on ubuntu machine: `apt-get update && apt-get install apt-file -y && apt-file update && apt-get install vim -y`
+
+
+## Jupyter notebook env Ubuntu for specific Python version
+1. `sudo add-apt-repository ppa:deadsnakes/ppa`
+2. `sudo apt-get update`
+3. `sudo apt-get install python3.7`
+4. `python3.7 -m pip install virtualenv`
+5. `python3.7 -m virtualenv my-37-venv`
+6. `source my-37-venv/bin/activate`
+7. `pip install jupyter`
+8. `ipython kernel install --name "my-37-env-kernel" --user`
+9. `pip install jupyterlab`
+11. `python -m jupyterlab`
