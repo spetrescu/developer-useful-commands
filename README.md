@@ -23,3 +23,6 @@
 8. `ipython kernel install --name "my-37-env-kernel" --user`
 9. `pip install jupyterlab`
 11. `python -m jupyterlab`
+
+## CYGWIN 
+This is a test.
