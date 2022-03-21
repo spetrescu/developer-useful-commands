@@ -10,7 +10,7 @@
 8. `git reset --hard origin/main`
 9. Stage only deleted files git: `git ls-files --deleted | xargs git add`
 10. Get vim on ubuntu machine: `apt-get update && apt-get install apt-file -y && apt-file update && apt-get install vim -y`
-
+11. List files changed in commit (by hash): first `git log` and then `git show --pretty="" --name-only <hash>`
 
 ## Jupyter notebook env Ubuntu for specific Python version
 1. `sudo add-apt-repository ppa:deadsnakes/ppa`
@@ -26,3 +26,4 @@
 
 ## CYGWIN 
 This is a test.
+
