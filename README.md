@@ -13,6 +13,7 @@
 11. List files changed in commit (by hash): first `git log` and then `git show --pretty="" --name-only <hash>`
 12. Undo last commit from local: `git reset --soft HEAD~1`
 13. Undo last commit from remote: first `git reset HEAD^` and then `git push origin +HEAD`
+14. Restore uncommited deleted file: first `git reset HEAD <file>` and then `git checkout -- <file>`
 
 ## Jupyter notebook env Ubuntu for specific Python version
 1. `sudo add-apt-repository ppa:deadsnakes/ppa`
