@@ -15,6 +15,7 @@
 13. Undo last commit from remote: first `git reset HEAD^` and then `git push origin +HEAD`
 14. Restore uncommited deleted file: first `git reset HEAD <file>` and then `git checkout -- <file>`
 15. List all conda created on system: `conda env list`
+16. Find text in dirs: `grep -rnw '/path/to/somewhere/' -e 'pattern'`
 
 ## Jupyter notebook env Ubuntu for specific Python version
 1. `sudo add-apt-repository ppa:deadsnakes/ppa`
