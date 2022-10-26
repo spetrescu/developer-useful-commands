@@ -17,6 +17,7 @@
 15. List all conda created on system: `conda env list`
 16. Find text in dirs: `grep -rnw '/path/to/somewhere/' -e 'pattern'`
 17. Display all available GPUs: `lspci -k|grep -iA2 "VGA"`
+18. List all of your conda environments: `conda info --envs`
 
 ## Jupyter notebook env Ubuntu for specific Python version
 1. `sudo add-apt-repository ppa:deadsnakes/ppa`
