@@ -18,6 +18,7 @@
 16. Find text in dirs: `grep -rnw '/path/to/somewhere/' -e 'pattern'`
 17. Display all available GPUs: `lspci -k|grep -iA2 "VGA"`
 18. List all of your conda environments: `conda info --envs`
+19. Disable conda on startup: `conda config --set auto_activate_base false`
 
 ## Jupyter notebook env Ubuntu for specific Python version
 1. `sudo add-apt-repository ppa:deadsnakes/ppa`
