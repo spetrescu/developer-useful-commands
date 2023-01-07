@@ -19,19 +19,3 @@
 17. Display all available GPUs: `lspci -k|grep -iA2 "VGA"`
 18. List all of your conda environments: `conda info --envs`
 19. Disable conda on startup: `conda config --set auto_activate_base false`
-
-## Jupyter notebook env Ubuntu for specific Python version
-1. `sudo add-apt-repository ppa:deadsnakes/ppa`
-2. `sudo apt-get update`
-3. `sudo apt-get install python3.7`
-4. `python3.7 -m pip install virtualenv`
-5. `python3.7 -m virtualenv my-37-venv`
-6. `source my-37-venv/bin/activate`
-7. `pip install jupyter`
-8. `ipython kernel install --name "my-37-env-kernel" --user`
-9. `pip install jupyterlab`
-11. `python -m jupyterlab`
-
-## CYGWIN 
-This is a test.
-
