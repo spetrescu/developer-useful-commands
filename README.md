@@ -19,3 +19,7 @@
 17. Display all available GPUs: `lspci -k|grep -iA2 "VGA"`
 18. List all of your conda environments: `conda info --envs`
 19. Disable conda on startup: `conda config --set auto_activate_base false`
+20. Discard local changes on one file: `git checkout -- <file>`
+
+### Contributions
+Feel free to open a PR in case you want to add other useful commands.
