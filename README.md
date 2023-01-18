@@ -23,4 +23,4 @@
 21. Default location for saving generated SSH keys: `/Users/<username>/.ssh/`
 
 ### Contributions
-Feel free to open a PR in case you want to add other useful commands.
+Feel free to open a PR to add other useful commands.
