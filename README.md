@@ -20,6 +20,7 @@
 18. List all of your conda environments: `conda info --envs`
 19. Disable conda on startup: `conda config --set auto_activate_base false`
 20. Discard local changes on one file: `git checkout -- <file>`
+21. Default location for saving generated SSH keys: `/Users/<username>/.ssh/`
 
 ### Contributions
 Feel free to open a PR in case you want to add other useful commands.
