@@ -21,6 +21,7 @@
 19. Disable conda on startup: `conda config --set auto_activate_base false`
 20. Discard local changes on one file: `git checkout -- <file>`
 21. Default location for saving generated SSH keys: `/Users/<username>/.ssh/`
+22. Give sudo permissions to user: `sudo usermod -aG sudo <user>`
 
 ### Contributions
 Feel free to open a PR to add other useful commands.
