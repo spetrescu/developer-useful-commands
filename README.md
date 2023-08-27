@@ -22,7 +22,8 @@
 20. Discard local changes on one file: `git checkout -- <file>`
 21. Default location for saving generated SSH keys: `/Users/<username>/.ssh/`
 22. Give sudo permissions to user: `sudo usermod -aG sudo <user>`
-23. Commit changes made to Docker container: `docker commit <container_id> new_image_name:tag_name`
+23. Commit changes made to Docker container: `docker commit <container_id> new_image_name:tag`
+24. Tag Docker image: `docker tag <image_id> username/repository:tag`
 
 ### Contributions
 Feel free to open a PR to add other useful commands.
