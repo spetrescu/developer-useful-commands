@@ -24,6 +24,7 @@
 22. Give sudo permissions to user: `sudo usermod -aG sudo <user>`
 23. Commit changes made to Docker container: `docker commit <container_id> new_image_name:tag`
 24. Tag Docker image: `docker tag <image_id> username/repository:tag`
+25. Push Docker image: `docker push username/repository:tag`
 
 ### Contributions
 Feel free to open a PR to add other useful commands.
